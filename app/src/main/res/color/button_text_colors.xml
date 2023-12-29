@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Состояние, когда кнопка активна и не нажата -->
+    <item android:state_enabled="true" android:state_pressed="false" android:color="#FFFFFF" /> <!-- Синий цвет -->
+
+    <!-- Состояние, когда кнопка активна и нажата -->
+    <item android:state_enabled="true" android:state_pressed="true" android:color="#0000FF" /> <!-- Белый цвет при нажатии -->
+
+    <!-- Состояние, когда кнопка неактивна (например, заблокирована) -->
+    <item android:state_enabled="false" android:color="#CCCCCC" /> <!-- Серый цвет для неактивной кнопки -->
+</selector>
